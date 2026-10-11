@@ -1,0 +1,12 @@
+{
+  "type": "code",
+  "modid": "craftfix",
+  "name": "CraftFix",
+  "description": "Fixes the cause of 'uncraftable items' (issue 9175) that is triggered by the handbook: barrel recipes on a handbook page drew the shared recipe ingredient stacks without cloning them. One Harmony patch makes the handbook draw clones instead. Client side only.",
+  "authors": ["ChristianJog"],
+  "version": "0.1.0",
+  "side": "Client",
+  "requiredOnClient": false,
+  "requiredOnServer": false,
+  "dependencies": { "game": "1.22.0", "survival": "1.22.0" }
+}
